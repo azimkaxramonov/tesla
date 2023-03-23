@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="photo">
+            <img class="teslaimg" src="img/image 1.svg" alt="">
+        </div>
+    </div>
+    <div class="cont">
+        <div class="flexbox">
+            <div class="item">
+                <p>Запас хода</p>
+                <h2 class="powerreserve">750км</h2>
+            </div>
+            <div class="item">
+                <p>цена</p>
+                <h2 class="textprice">$89,990</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="contfooter">
+        <div class="change">
+           <div class="colorcar">
+            <p>Цвет салона</p>
+            <div class="color">              
+                <div class="elem">
+                    <button data-teslasalon="black"
+                    data-power_reserve="blackreserve"
+                    data-price="blackprice" id="black"></button>
+                </div>
+                <div class="elem">
+                    <button data-teslasalon="white"
+                    data-power_reserve="whitereserve"
+                    data-price="whiteprice" id="white"></button>
+                </div>
+                <div class="elem">
+                    <button data-teslasalon="beige"
+                    data-power_reserve="beigereserve"
+                    data-price="beigeprice" id="beige"></button>
+                </div>
+            </div>
+           </div>
+            <div class="type_of_car">
+                <p>Вид автомобиля</p>
+                <input type="radio">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+   
+</body>
+
+</html>
